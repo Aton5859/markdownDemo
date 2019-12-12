@@ -1,1 +1,8 @@
-### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/tabs) repo! :point_left:
+##### home页为html代码中写死的markdown格式文本
+
+##### about页为加载程序文件夹内md文件并显示
+
+    该md文件为网络随便搜索的一个博客日记源文件，如作者感到侵权，请联系删除。
+
+##### contact页为在线编辑markdown格式文件并刷新实时预览
+
