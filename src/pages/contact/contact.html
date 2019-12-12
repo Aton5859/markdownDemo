@@ -6,12 +6,16 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+<ion-content padding>
+  <h5>请输入markdown格式文本</h5>
+  <ion-grid class="xmf_form">
+    <ion-row>
+      <ion-item class="item_input">
+        <textarea name="textfield3" cols="30" rows="3" [(ngModel)]="data.text"></textarea>
+      </ion-item>
+    </ion-row>
+  </ion-grid>
+
+  <h5>无刷新实时预览</h5>
+  <markdown data="{{data.text}}"></markdown>
 </ion-content>

@@ -7,5 +7,9 @@
 </ion-header>
 
 <ion-content padding>
-
+  <!-- 插件提供的path属性无法加载md文件，具体原因未知 -->
+  <button ion-button (click)="getRequestContact()">加载本地md文件</button>
+  <h5>md文件内容</h5>
+  <h6>该md文件复制自网络，如有侵权请联系删除</h6>
+  <markdown data="{{data.text}}"></markdown>
 </ion-content>
